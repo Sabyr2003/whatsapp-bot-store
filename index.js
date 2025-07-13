@@ -157,7 +157,7 @@ client.on('message', async msg => {
     const includesAny = variants => variants.some(word => text.includes(word));
 
     if (includesAny(kaspiVariants)) {
-      await msg.reply('✅ Оплата через Kaspi: переведите на +7 778 295 1403 Сабыр З. и отправьте скрин оплаты.');
+      await msg.reply('✅ Оплата через Kaspi: переведите на +7 XXX XXX XXXX и отправьте скрин оплаты.');
       clearSession(msg.from);
       return;
     }
@@ -241,7 +241,7 @@ async function handleIntentsSmart(text, msg, session) {
             await msg.reply('👋 Добро пожаловать! Я помогу вам выбрать и оформить заказ.');
             return true;
           case 'address':
-            await msg.reply('📍 Наш склад: Алматы, проспект Райымбека, 206к.');
+            await msg.reply('📍 Наш склад: Алматы, проспект Райымбека, 373.');
             return true;
         }
       }

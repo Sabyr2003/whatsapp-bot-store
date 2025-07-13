@@ -170,11 +170,11 @@ async function askOpenRouter(userMessage, products, session) {
 
 ${historyContext}
 
-Склад: Алматы, Райымбека 206к.
+Склад: Алматы, Райымбека 373.
 Сайт: https://sabyrshop.freesite.online/
 
 Оплата:
-- Kaspi: +7 778 295 1403
+- Kaspi: +7 XXX XXX XXXX
 - Рассрочка: попроси ФИО и ИИН
 - Наличные: оплата при получении
 - Карта: отправь ссылку https://sabyrshop.freesite.online/

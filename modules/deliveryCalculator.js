@@ -2,7 +2,7 @@ const axios = require('axios');
 
 const BASE_PRICE = 500;
 const PER_KM_PRICE = 200;
-const ORIGIN = 'Алматы, проспект Райымбека, 206к';
+const ORIGIN = 'Алматы, проспект Райымбека, 373';
 const USER_AGENT = 'whatsapp-delivery-bot/1.0';
 
 const coordCache = {};
